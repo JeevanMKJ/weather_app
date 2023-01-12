@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>5 Day Weather Forecast</title>
+  </head>
+  <body>
+    <center>
+      <h1>5 Day Weather Forecast</h1>
+      <p>
+        City:
+        <input id="city-input" type="text" />
+      </p>
+      <button id="get-weather">Get Weather</button>
+      <h2 id="city-name">--City--</h2>
+      <ul id="city-list"></ul>
+    </center>
+    <div id="weather-container">
+      <div id="icons-container">
+        <div class="day-container">
+          <p class="weather" id="day1"></p>
+          <div class="image">
+            <img src="" alt="" class="img-class" id="img1" />
+            <p class="min-values" id="day1Min"></p>
+            <p class="max-values" id="day1Max"></p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="weather" id="day2"></p>
+          <div class="image">
+            <img src="" alt="" class="img-class" id="img2" />
+            <p class="min-values" id="day2Min"></p>
+            <p class="max-values" id="day2Max"></p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="weather" id="day3"></p>
+          <div class="image">
+            <img src="" alt="" class="img-class" id="img3" />
+            <p class="min-values" id="day3Min"></p>
+            <p class="max-values" id="day3Max"></p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="weather" id="day4"></p>
+          <div class="image">
+            <img src="" alt="" class="img-class" id="img4" />
+            <p class="min-values" id="day4Min"></p>
+            <p class="max-values" id="day4Max"></p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="weather" id="day5"></p>
+          <div class="image">
+            <img src="" alt="" class="img-class" id="img5" />
+            <p class="min-values" id="day5Min"></p>
+            <p class="max-values" id="day5Max"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <ul id="city-list"></ul> -->
+    <script src="script.js"></script>
+  </body>
+</html>
