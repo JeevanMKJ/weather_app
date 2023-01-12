@@ -4,7 +4,7 @@
 
 With this application the user can get the weather forecast by city for the next 5 days. Additionally city search results are saved to local storage and can be simply imputed again by clicking upon them in the searched city list.
 
-## What can the [5 Day Weather APP](https://jeevanmkj.github.io/daily_shedule_planner/) do?
+## What can the [5 Day Weather APP](https://jeevanmkj.github.io/weather_app/) do?
 
 A user can view:
 
